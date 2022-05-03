@@ -1,6 +1,5 @@
  .u-section-1 {
   background-image: url("images/background.png");
-  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -26,6 +25,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+  }
+
   .u-section-1 .u-sheet-1 {
     min-height: 617px;
   }
@@ -95,7 +98,6 @@
   }
 } .u-section-2 {
   background-image: url("images/background.png");
-  background-position: 50% 50%;
 }
 
 .u-section-2 .u-sheet-1 {
@@ -149,6 +151,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-2 {
+    background-position: 50% 50%;
+  }
+
   .u-section-2 .u-sheet-1 {
     min-height: 459px;
   }
@@ -245,7 +251,6 @@
   }
 } .u-section-3 {
   background-image: url("images/background.png");
-  background-position: 50% 50%;
 }
 
 .u-section-3 .u-sheet-1 {
@@ -341,6 +346,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-3 {
+    background-position: 50% 50%;
+  }
+
   .u-section-3 .u-sheet-1 {
     min-height: 847px;
   }
@@ -503,11 +512,10 @@
   }
 } .u-section-4 {
   background-image: url("images/background.png");
-  background-position: 50% 50%;
 }
 
 .u-section-4 .u-sheet-1 {
-  min-height: 1056px;
+  min-height: 1055px;
 }
 
 .u-section-4 .u-layout-wrap-1 {
@@ -555,16 +563,20 @@
 
 .u-section-4 .u-text-4 {
   font-size: 1.5rem;
-  margin: 10px 7px 0;
+  margin: 11px 7px 0;
 }
 
 .u-section-4 .u-text-5 {
-  margin: 0 7px 60px;
+  margin: -1px 7px 60px;
 }
 
 @media (max-width: 1199px) {
+   .u-section-4 {
+    background-position: 50% 50%;
+  }
+
   .u-section-4 .u-sheet-1 {
-    min-height: 773px;
+    min-height: 772px;
   }
 
   .u-section-4 .u-layout-cell-1 {
@@ -597,7 +609,7 @@
 
 @media (max-width: 991px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 666px;
+    min-height: 665px;
   }
 
   .u-section-4 .u-layout-cell-1 {
@@ -611,7 +623,7 @@
 
 @media (max-width: 767px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 1103px;
+    min-height: 1102px;
   }
 
   .u-section-4 .u-image-1 {
@@ -626,7 +638,7 @@
 
 @media (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 848px;
+    min-height: 847px;
   }
 
   .u-section-4 .u-layout-cell-1 {
@@ -659,7 +671,6 @@
   }
 } .u-section-5 {
   background-image: url("images/background.png");
-  background-position: 50% 50%;
 }
 
 .u-section-5 .u-sheet-1 {
@@ -705,12 +716,20 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-5 {
+    background-position: 50% 50%;
+  }
+
   .u-section-5 .u-sheet-1 {
     min-height: 436px;
   }
 
   .u-section-5 .u-layout-cell-1 {
     min-height: 353px;
+  }
+
+  .u-section-5 .u-text-1 {
+    font-size: 3rem;
   }
 
   .u-section-5 .u-text-2 {
